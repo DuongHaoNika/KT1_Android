@@ -4,7 +4,7 @@ public class Room {
     private String id;
     private String name;
     private double price;
-    private String status; // "Còn trống" hoặc "Đã thuê"
+    private String status;
     private String tenantName;
     private String phoneNumber;
 
