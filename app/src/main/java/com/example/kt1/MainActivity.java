@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Validate dữ liệu
+                // Validate
                 String id = etId.getText().toString().trim();
                 String name = etName.getText().toString().trim();
                 String priceStr = etPrice.getText().toString().trim();
