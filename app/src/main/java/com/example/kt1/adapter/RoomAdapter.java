@@ -43,7 +43,6 @@ public class RoomAdapter extends RecyclerView.Adapter<RoomAdapter.RoomViewHolder
 
         holder.tvStatus.setText(room.getStatus());
 
-        // Tô màu theo trạng thái
         if (room.getStatus().equals("Còn trống")) {
             holder.tvStatus.setTextColor(holder.itemView.getContext().getColor(android.R.color.holo_green_dark));
             holder.cardView.setCardBackgroundColor(holder.itemView.getContext().getColor(android.R.color.holo_green_light));
